@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default function App() {
+	return (
+		<div className="App">
+			<h1>Weather App </h1>
+			<footer>
+				This project was coded by{" "}
+				<a
+					href="https://www.shecodes.io/graduates/105285-angela-mugabe"
+					target="_blank"
+				>
+					{" "}
+					Angela Mugabe{" "}
+				</a>{" "}
+				, is open sourced on{" "}
+				<a
+					href="https://github.com/anglmugabe/weather-react-application"
+					target="_blank"
+				>
+					{" "}
+					GitHub cle
+				</a>
+				and hosted on
+				<a
+					href="https://appmeteorologicoreact.netlify.app/"
+					target="_blank"
+				>
+					{" "}
+					Netlify{" "}
+				</a>
+				.
+			</footer>
+		</div>
+	);
 }
-
-export default App;
